@@ -1,6 +1,6 @@
 # Spring Boot CSRF Example Project
 
-This project is a beginner-friendly Spring Boot application designed to demonstrate **Cross-Site Request Forgery (CSRF)** protection. It uses a cookie-based CSRF token approach, a simple user interface, and clear code comments to help students understand how CSRF attacks work and how to prevent them using Spring Security.
+This project is a beginner-friendly Spring Boot application designed to demonstrate **Cross-Site Request Forgery (CSRF)** protection. It uses a cookie-based CSRF token approach, a simple user interface, and clear code comments to help understand how CSRF attacks work and how to prevent them using Spring Security.
 
 ## Table of Contents
 - [What is CSRF?](#what-is-csrf)
@@ -69,11 +69,11 @@ To run this project, you need:
 
 2. **Project Structure**:
    ```
-   spring-boot-csrf-enhanced/
+   spring-boot-csrf/
    ├── src/
    │   ├── main/
    │   │   ├── java/com/example/csrf/
-   │   │   │   ├── CsrfEnhancedApplication.java
+   │   │   │   ├── CsrfExampleApplication.java
    │   │   │   ├── config/
    │   │   │   │   └── SecurityConfig.java
    │   │   │   ├── controller/
